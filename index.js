@@ -27,6 +27,14 @@ if eta(< 18:
 else (sconto = 0.0   Nessuno sconto)
 // applicare uno sconto del 40% per gli over 65
 
+// prezzo finale
+function formatprice(price) {
+    return `${price.tofixed()
+        }`
+}
+
+
+
 
 
 
