@@ -13,17 +13,18 @@ console.log(eta);
 const prezzoalkm = 0.21;
 
 // calcolo del prezzo totale
-let prezzototale = prompt ("quanto è il prezzo totale")
-prezzototale = Number (prezzototale)
+const prezzoalkm = 0.21;
+const distanza = Number
+const prezzototale = Number
 console.log(prezzototale);
 
 
 
 // applicare uno sconto del 20% sui minorenni 
-let percentualescontominori = 20;
-let sconto = prezzototale * (percentualesconto / 100 );
-let prezzofinale = prezzototale - percentualesconto;
-console.log(prezzofinale);
+const prezzototale = 100;
+const percentualesconto = prezzototale * (percentualesconto / 100 );
+const prezzofinale = prezzototale - percentualesconto;
+
 if (eta > 18 && eta <65 || eta ==18){
     prezzototale = chilometri * prezzoalkm
 }
