@@ -1,18 +1,21 @@
 // chiedere all'utente  il numero di chilometri che vuole percorrere
 let chilometri = prompt("quanti chilometri vuoi percorrere?");
-chilometri = parseFloat (chilometri);
-console.log(chilometri);
+chilometri = Number (chilometri);
+console.log(80);
 
 
 // chiedere l'età del passeggero
 let eta = prompt("qual è la tua età?");
-eta = prompt = (eta);
-console.log(eta);
+console.log(26);
 
 // prezzo per chilometro
 const prezzoalkm = 0.21;
 
+
 // applicare uno sconto del 20% sui minorenni
+if (eta < 18) {
+    prezzofinale = 
+}
 
 
 // applicare uno sconto del 40% per gli over 65
